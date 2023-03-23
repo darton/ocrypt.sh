@@ -4,7 +4,11 @@ Script to encrypt or decrypt files using openssl.
 ## Installation openssl library
 
 ````
-sudo apt install openssl
+sudo apt -y install openssl
+````
+or
+````
+sudo dnf -y install openssl
 ````
 
 ## Usage to encrypt file: 
